@@ -2,4 +2,6 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 
-createApp(App).use(router).mount("#app");
+import SvgIcon from '@jamescoyle/vue-icon'
+
+createApp(App).component('svgIcon', SvgIcon).use(router).mount("#app");
