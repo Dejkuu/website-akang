@@ -1,5 +1,7 @@
 # website-akang
 
+Unfinished project
+
 ## Project setup
 ```
 npm install
